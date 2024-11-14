@@ -1,0 +1,29 @@
+/* styles.css */
+.root {
+    -fx-background-color: #f0f0f0;
+}
+
+.background {
+    -fx-background-image: url('images.jpg');
+    -fx-background-size: cover;
+}
+
+
+.button {
+    -fx-background-color: #007BFF; /* Bootstrap primary color */
+    -fx-text-fill: white; /* White text color */
+    -fx-padding: 10px 20px; /* Padding inside buttons */
+    -fx-font-size: 14px; /* Font size */
+    -fx-font-weight: bold; /* Bold font */
+}
+
+.label {
+    -fx-font-size: 18px; /* Font size for labels */
+    -fx-text-fill: #333; /* Dark text color */
+}
+
+.combo-box {
+    -fx-background-color: white; /* White background */
+    -fx-border-color: #007BFF; /* Blue border */
+    -fx-padding: 5px; /* Padding inside combo box */
+}

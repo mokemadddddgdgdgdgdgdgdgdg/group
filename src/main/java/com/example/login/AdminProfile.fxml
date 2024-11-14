@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="414.0" prefWidth="400" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.login.AdminProfileCall">
+   <children>
+      <Text layoutX="88.0" layoutY="156.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Names :" />
+      <Text layoutX="88.0" layoutY="226.0" strokeType="OUTSIDE" strokeWidth="0.0" text="E-mail :" />
+      <Text layoutX="88.0" layoutY="295.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Id Number :" />
+      <TextField fx:id="nametxtfield" layoutX="88.0" layoutY="172.0" prefHeight="25.0" prefWidth="193.0" editable="false"/>
+      <TextField fx:id="emailtxtfield" layoutX="88.0" layoutY="237.0" prefHeight="25.0" prefWidth="193.0" editable="false"/>
+      <TextField fx:id="idtxtfield" layoutX="88.0" layoutY="307.0" prefHeight="25.0" prefWidth="193.0" editable="false"/>
+      <Text layoutX="89.0" layoutY="86.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Admin Profile">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Text>
+      <Button fx:id="backbttn" layoutX="88.0" layoutY="350.0" text="Back" onAction="#handleBackButton"/>
+   </children>
+</AnchorPane>

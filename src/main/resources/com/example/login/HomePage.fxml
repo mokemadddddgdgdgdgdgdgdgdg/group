@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.effect.InnerShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="434.0" prefWidth="613.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Pane fx:id="pan1" layoutX="-1.0" prefHeight="434.0" prefWidth="614.0" style="-fx-background-color: White;">
+         <children>
+            <ImageView fx:id="backgpic" fitHeight="323.0" fitWidth="464.0" layoutX="150.0" layoutY="56.0" opacity="0.55">
+               <image>
+                  <Image url="@../Downloads/IMG-20230213-WA0133%20(1).jpg" />
+               </image>
+               <effect>
+                  <InnerShadow choke="0.39" radius="24.6225" width="79.49">
+                     <color>
+                        <Color red="0.9789473414421082" green="0.9680701494216919" blue="0.9680701494216919" />
+                     </color>
+                  </InnerShadow>
+               </effect>
+            </ImageView>
+            <Button fx:id="btnRgt" layoutX="329.0" layoutY="342.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="115.0" style="-fx-background-color: #66ff00;" text="Registration">
+               <effect>
+                  <InnerShadow choke="0.29" height="24.51" radius="12.6325" width="28.02">
+                     <color>
+                        <Color red="0.9305964708328247" green="0.9299025535583496" blue="0.9368420839309692" />
+                     </color>
+                  </InnerShadow>
+               </effect>
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <Rectangle fx:id="header" arcHeight="5.0" arcWidth="5.0" fill="#b7babc" height="51.0" layoutX="1.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="613.0" />
+            <Rectangle fx:id="footer" arcHeight="5.0" arcWidth="5.0" fill="#b7babc" height="51.0" layoutX="1.0" layoutY="383.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="613.0" />
+            <Text fx:id="txtnum2" layoutX="62.0" layoutY="413.0" strokeType="OUTSIDE" strokeWidth="0.0" text=" 5835 4932 / 6839 8354" />
+            <Text fx:id="txtmail" layoutX="269.0" layoutY="413.0" strokeType="OUTSIDE" strokeWidth="0.0" text=" limkokwing@lim.gmail.com" />
+            <Pane fx:id="panlist" layoutX="1.0" layoutY="51.0" prefHeight="333.0" prefWidth="169.0" style="-fx-background-color: white;">
+               <effect>
+                  <InnerShadow choke="0.12" height="39.72" radius="17.605" width="32.7">
+                     <color>
+                        <Color red="0.557894766330719" green="0.5516958832740784" blue="0.5516958832740784" />
+                     </color>
+                  </InnerShadow>
+               </effect>
+               <children>
+                  <Text fx:id="txtDp1" layoutX="12.0" layoutY="66.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Diploma in Film Production" />
+                  <Text fx:id="txtDp2" layoutX="11.0" layoutY="92.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Diploma in Architectural Technology" wrappingWidth="168.99999999999994" />
+                  <Text fx:id="txtDg" layoutX="25.0" layoutY="198.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Degree Courses">
+                     <font>
+                        <Font name="System Bold" size="15.0" />
+                     </font>
+                  </Text>
+                  <Text fx:id="txtDp3" layoutX="12.0" layoutY="136.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Diploma in Public Relations" />
+                  <Text fx:id="txtDp4" layoutX="11.0" layoutY="166.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Diploma in Marketing" />
+                  <Text fx:id="txtDp" layoutX="29.0" layoutY="39.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Diploma Courses">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                  </Text>
+                  <Text fx:id="txtDg1" layoutX="7.0" layoutY="223.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Bachelor of Arts in Interior Architecture" wrappingWidth="154.642578125" />
+                  <Text fx:id="txtDg2" layoutX="9.0" layoutY="265.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Bachelor of Design in Professional Design" wrappingWidth="154.64257812499994" />
+                  <Text fx:id="txtDg3" layoutX="7.0" layoutY="306.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Bachelor of Arts in Tourism Management" wrappingWidth="154.64257812499994" />
+               </children>
+            </Pane>
+            <ImageView fx:id="logo" fitHeight="57.0" fitWidth="169.0" layoutX="1.0">
+               <image>
+                  <Image url="@../Downloads/OIP%20(1).jpeg" />
+               </image>
+            </ImageView>
+            <Text fx:id="txtWlcm" layoutX="264.0" layoutY="37.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Welcome To Our Home Page">
+               <font>
+                  <Font size="19.0" />
+               </font>
+            </Text>
+            <ImageView fx:id="icnphone" fitHeight="25.0" fitWidth="27.0" layoutX="28.0" layoutY="397.0">
+               <image>
+                  <Image url="@../Downloads/telephone-call.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="icnmail" fitHeight="25.0" fitWidth="27.0" layoutX="234.0" layoutY="396.0">
+               <image>
+                  <Image url="@../Downloads/email.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="icnWhap" fitHeight="32.0" fitWidth="34.0" layoutX="462.0" layoutY="391.0">
+               <image>
+                  <Image url="@../Downloads/whatsapp.png" />
+               </image>
+            </ImageView>
+            <Text fx:id="txtnum" layoutX="502.0" layoutY="411.0" strokeType="OUTSIDE" strokeWidth="0.0" text="6839 8354" />
+            <Text fx:id="txt1" layoutX="269.0" layoutY="125.0" strokeType="OUTSIDE" strokeWidth="0.0" text="At Limkokwing , we are dedicated to providing cutting-edge education and fostering innovation to shape the leaders of tomorrow. As a premier institution of higher learning, we offer a diverse range of programs that combine theory with practical, hands-on experience in fields such as Engineering, IT, Business, and more." wrappingWidth="345.33673095703125">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Text>
+            <Text fx:id="txtUnv" layoutX="211.0" layoutY="89.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Limkokwing University">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Text>
+            <Text fx:id="txt2" layoutX="187.0" layoutY="276.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Join a community of innovators, thinkers, and leaders. Learn more about the application process, scholarships, and financial aid options available to our future students." wrappingWidth="270.13673400878906">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Text>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

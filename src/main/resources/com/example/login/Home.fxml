@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="551.0" prefWidth="318.0" style="-fx-background-color: gray;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.login.RegistrationController">
+    <children>
+        <ImageView fitHeight="122.0" fitWidth="180.0" layoutX="65.0" layoutY="6.0">
+            <image>
+                <Image url="@../images/download.png" />
+            </image>
+        </ImageView>
+      <Button fx:id="homebtn" layoutX="100.0" layoutY="313.0" mnemonicParsing="false" text="HOME PAGE">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="adminbtn" layoutX="85.0" layoutY="216.0" mnemonicParsing="false" text="ADMINISTRATOR">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="principalLecturerbtn" layoutX="73.0" layoutY="166.0" mnemonicParsing="false" text="PRINCIPAL LECTURER">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="lecturerbtn" layoutX="107.0" layoutY="264.0" mnemonicParsing="false" text="LECTURER">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+      <Text fx:id="slogan1" layoutX="94.0" layoutY="423.0" strokeType="OUTSIDE" strokeWidth="0.0" text="BE THE BEST  !!!">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Text>
+    </children>
+</AnchorPane>

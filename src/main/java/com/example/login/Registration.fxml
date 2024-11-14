@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="551.0" prefWidth="318.0" style="-fx-background-color: gray;" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.login.RegistrationController">
+   <children>
+      <ImageView fitHeight="122.0" fitWidth="180.0" layoutX="65.0" layoutY="6.0">
+         <image>
+            <Image url="@../images/download.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="57.0" layoutY="144.0" text=" REGISTRATION " textFill="#fbf7f7">
+         <font>
+            <Font name="Arial Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="108.0" layoutY="182.0" text="Registry Portal " textFill="#f4efef">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="new_password" layoutX="39.0" layoutY="286.0" prefHeight="27.0" prefWidth="242.0" promptText="enter Password" />
+      <PasswordField fx:id="confirm_Password" layoutX="39.0" layoutY="324.0" prefHeight="27.0" prefWidth="242.0" promptText="confirm Password" />
+      <Button fx:id="btn_register" layoutX="38.0" layoutY="413.0" mnemonicParsing="false" onAction="#registerAccount" prefHeight="35.0" prefWidth="242.0" text="Register">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <Label alignment="CENTER" layoutX="65.0" layoutY="464.0" prefHeight="25.0" prefWidth="180.0" text="Login into your Account" textFill="#f8f2f2">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <ComboBox fx:id="select_account" layoutX="85.0" layoutY="502.0" onAction="#switchform" prefWidth="150.0" promptText="Select" />
+      <TextField fx:id="new_name" layoutX="38.0" layoutY="211.0" prefHeight="25.0" prefWidth="242.0" promptText="enter name" />
+      <ComboBox fx:id="select_role" layoutX="39.0" layoutY="366.0" prefHeight="25.0" prefWidth="242.0" promptText="Select role" />
+      <TextField fx:id="new_id" layoutX="39.0" layoutY="251.0" prefHeight="25.0" prefWidth="242.0" promptText="enter ID" />
+   </children>
+</AnchorPane>

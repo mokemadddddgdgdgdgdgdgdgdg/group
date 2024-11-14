@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.text.Font?>
+
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="479.0" prefWidth="356.0" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.login.AddLecturer">
+   <children>
+      <AnchorPane prefHeight="526.0" prefWidth="371.0">
+         <children>
+            <Label layoutX="103.0" layoutY="55.0" text="Add New Lecturer">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <TextField fx:id="Name" layoutX="107.0" layoutY="144.0" promptText="Enter name" />
+
+            <TextField fx:id="lecturer_id" layoutX="107.0" layoutY="198.0" promptText="Enter Lecturer ID" />
+            <TextField fx:id="Email" layoutX="107.0" layoutY="252.0" promptText="Enter Email" />
+            <TextField fx:id="Dept" layoutX="107.0" layoutY="306.0" promptText="Enter Department" />
+            <Button fx:id="btn_add" layoutX="204.0" layoutY="411.0" mnemonicParsing="false" onAction="#handleAddLecturer" prefHeight="25.0" prefWidth="79.0" text="ADD" />
+            <Button fx:id="btn_back" layoutX="92.0" layoutY="411.0" mnemonicParsing="false" onAction="#loadPrevious" prefHeight="25.0" prefWidth="79.0" text="BACK" />
+         </children>
+      </AnchorPane>
+   </children>
+</StackPane>
